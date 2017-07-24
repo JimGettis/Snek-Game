@@ -205,8 +205,6 @@ def gameLoop():
 
         # RENDER DISPLAY
         gameDisplay.fill(Color.DarkSeaGreen)
-#        pygame.draw.rect(gameDisplay, Color.Red, [randAppleX, randAppleY, AppleThickness, AppleThickness])
-
         gameDisplay.blit(appleimg, (randAppleX, randAppleY))
         snakeHead = []
         snakeHead.append(lead_x)
